@@ -11,7 +11,7 @@ Build open silicon using [Jupyter](https://jupyter.org/) and [Colab](https://col
 Run a simple inverter design thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
 
 
-![img](img/inverter.svg)
+![inverter layout](img/inverter.svg)
 
 ### Analog Inverter with Magic
 
@@ -19,4 +19,4 @@ Run a simple inverter design thru the [OpenLane](https://github.com/The-OpenROAD
 
 Draw a simple mosfet for the [open source SKY130 PDK](https://github.com/google/skywater-pdk/) using [MAGIC](https://github.com/RTimothyEdwards/magic) and simulate it in an inverter circuit using [PySpice](https://pyspice.fabrice-salvaire.fr/).
 
-![img](img/mosfet.png)
+![mosfet layout](img/mosfet.png)
