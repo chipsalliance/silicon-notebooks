@@ -4,13 +4,21 @@ Build open silicon using [Jupyter](https://jupyter.org/) and [Colab](https://col
 
 ## Notebooks
 
-### Digital Inverter with OpenLane [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb)
+### Digital Inverter with OpenLane and SKY130 PDK [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb)
 
 [digital-inverter-openlane.ipynb](digital-inverter-openlane.ipynb)
 
 Run a simple inverter design thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
 
 ![inverter layout](img/inverter.svg)
+
+### Digital Inverter with OpenLane and GF180MCU PDK [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane-gf180mcu.ipynb)
+
+[digital-inverter-openlane-gf180mcu.ipynb](digital-inverter-openlane-gf180mcu.ipynb)
+
+Run a simple inverter design thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source GF180MCU PDK](https://github.com/google/gf180mcu-pdk/).
+
+![inverter layout](img/inverter-gf180mcu.svg)
 
 ### Analog Inverter with Magic [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/analog-inverter-magic.ipynb)
 
