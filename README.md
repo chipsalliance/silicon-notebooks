@@ -26,4 +26,4 @@ Draw a simple mosfet for the [open source SKY130 PDK](https://github.com/google/
 
 Run a simple 1-bit adder design using the [XLS](https://google.github.io/xls/) high level synthesis toolkit thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
 
-![adder layout](https://drive.google.com/uc?export=view&id=1DYKbQg2kJJxHAZ5afZgVZU3-ZxO6lQnA)
+![adder layout](img/adder.svg)
