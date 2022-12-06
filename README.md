@@ -35,3 +35,15 @@ Draw a simple mosfet for the [open source SKY130 PDK](https://github.com/google/
 Run a simple 1-bit adder design using the [XLS](https://google.github.io/xls/) high level synthesis toolkit thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
 
 ![adder layout](img/adder.svg)
+
+### XLS workshop with OpenLane [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/xls-workshop-openlane.ipynb)
+
+[xls-workshop-openlane.ipynb](xls-workshop-openlane.ipynb)
+
+#### From code to silicon using XLS and OpenLane
+
+- Design your hardware with code using [XLS](https://google.github.io/xls/) high-level synthesis toolkit.
+- Run your design thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) RTL to GDS toolchain.
+- Target the open source [SKY130](https://github.com/google/skywater-pdk/) PDK to manufacture your design using Google's sponsored [OpenMPW shuttle](https://developers.google.com/silicon) program.
+
+![xls layout](img/xls.png)
