@@ -47,3 +47,13 @@ Run a simple 1-bit adder design using the [XLS](https://google.github.io/xls/) h
 - Target the open source [SKY130](https://github.com/google/skywater-pdk/) PDK to manufacture your design using Google's sponsored [OpenMPW shuttle](https://developers.google.com/silicon) program.
 
 ![xls layout](img/xls.png)
+
+### Different adder architecture with OpenLane [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/heyshakya/silicon-notebooks/blob/main/adder_implementation.ipynb)
+
+[adder_implementation.ipynb](adder_implementation.ipynb)
+
+Design and Run a **32-bit Sklansky and Han-Carlson adder architecture** through the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
+
+Reference: This version of the notebook is implemented originally from this [Tweet](https://twitter.com/td_ene/status/1512590193596973062).
+
+![32adder layout](img/32adder_layout.jpg)
