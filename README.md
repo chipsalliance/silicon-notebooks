@@ -36,6 +36,14 @@ Run a simple 1-bit adder design using the [XLS](https://google.github.io/xls/) h
 
 ![adder layout](img/adder.svg)
 
+### SERV SoC with OpenLane and GF180MCU PDK [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/serv-openlane-gf180mcu.ipynb)
+
+[serv-openlane-gf180mcu.ipynb](serv-openlane-gf180mcu.ipynb)
+
+Run [subservient](https://github.com/olofk/subservient): a SERV-based SoC design thru the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source GF180MCU PDK](https://github.com/google/gf180mcu-pdk/).
+
+![serv layout](img/serv.png)
+
 ### XLS workshop with OpenLane [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/xls-workshop-openlane.ipynb)
 
 [xls-workshop-openlane.ipynb](xls-workshop-openlane.ipynb)
