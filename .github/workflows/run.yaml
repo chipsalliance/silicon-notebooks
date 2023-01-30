@@ -33,4 +33,4 @@ jobs:
     - run: |
         python -m pip install -r requirements-dev.txt
     - run: |
-        pytest --nbmake *.ipynb
+        pytest --nbmake {digital,serv,xls-adder}-*.ipynb
