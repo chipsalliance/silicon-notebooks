@@ -55,3 +55,25 @@ Run [subservient](https://github.com/olofk/subservient): a SERV-based SoC design
 - Target the open source [SKY130](https://github.com/google/skywater-pdk/) PDK to manufacture your design using Google's sponsored [OpenMPW shuttle](https://developers.google.com/silicon) program.
 
 ![xls layout](img/xls.png)
+
+## Maintainance
+
+- Install development dependencies
+
+```
+python3 -m venv env
+source env/bin/activate
+python -m pip install -e requirements-dev.txt
+```
+
+- Lint notebooks
+
+```
+nbqa flake8 *.ipynb
+```
+
+- Run notebooks
+
+```
+pytest --nbmake *.ipynb
+```

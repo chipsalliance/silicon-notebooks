@@ -1,0 +1,4 @@
+pytest
+nbmake
+nbQA
+flake8
