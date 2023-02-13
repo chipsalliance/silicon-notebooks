@@ -1,0 +1,8 @@
+pytest
+nbmake
+nbQA
+flake8
+jupyterlab
+pandas
+graphviz
+matplotlib
