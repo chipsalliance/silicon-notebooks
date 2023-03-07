@@ -43,5 +43,4 @@ jobs:
     - name: colab-badge is chipsalliance
       shell: bash
       run: |
-        grep colab-badge *.ipynb  | grep -v chipsalliance
-        test $? -eq 1
+        grep colab-badge *.ipynb  | (! grep -v chipsalliance)
