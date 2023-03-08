@@ -32,7 +32,15 @@ jobs:
           requirements-dev.txt
     - run: |
         python -m pip install -r requirements-dev.txt
-    - run: |
+    - name: flake8
+      run: |
         nbqa flake8 --builtins=conda_prefix_path \
                     --ignore=E402,E226 \
                     {digital,serv,xls-adder}-*.ipynb
+    - name: has colab-badge
+      run: |
+        grep colab-badge *.ipynb
+    - name: colab-badge is chipsalliance
+      shell: bash
+      run: |
+        grep colab-badge *.ipynb  | (! grep -v chipsalliance)
