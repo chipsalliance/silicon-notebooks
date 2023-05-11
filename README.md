@@ -62,7 +62,7 @@ Run [subservient](https://github.com/olofk/subservient): a SERV-based SoC design
 
 Generate an SRAM macro from a configuration file using the [OpenRAM](https://github.com/VLSIDA/OpenRAM) memory compiler using the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
 
-![SRAM Layout](img/sram.svg)
+![SRAM Layout](img/sram.png)
 
 ## Maintainance
 
