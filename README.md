@@ -56,6 +56,14 @@ Run [subservient](https://github.com/olofk/subservient): a SERV-based SoC design
 
 ![xls layout](img/xls.png)
 
+### Generate SRAM macros with OpenRAM using the SKY130 PDK [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/sfmth/openram-playground/blob/main/OpenRAM.ipynb)
+
+[OpenRAM.ipynb](OpenRAM.ipynb)
+
+Generate an SRAM macro from a configuration file using the [OpenRAM](https://github.com/VLSIDA/OpenRAM) memory compiler using the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
+
+![SRAM Layout](img/sram.png)
+
 ## Maintainance
 
 - Install development dependencies
